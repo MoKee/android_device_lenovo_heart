@@ -14,14 +14,14 @@
 <resources>
     <!-- Paths to the libraries that contain device specific key handlers -->
     <string-array name="config_deviceKeyHandlerLibs" translatable="false">
-        <item>/system/priv-app/LineageParts/LineageParts.apk</item>
+        <item>/system/priv-app/MoKeeParts/MoKeeParts.apk</item>
         <item>/system/priv-app/KeyHandler/KeyHandler.apk</item>
     </string-array>
 
     <!-- Names of the key handler classes -->
     <string-array name="config_deviceKeyHandlerClasses" translatable="false">
-        <item>org.lineageos.lineageparts.gestures.KeyHandler</item>
-        <item>org.lineageos.settings.device.KeyHandler</item>
+        <item>org.mokee.mokeeparts.gestures.KeyHandler</item>
+        <item>org.mokee.settings.device.KeyHandler</item>
     </string-array>
 
      <!-- All the capabilities of the LEDs on this device, stored as a bit field.
@@ -42,7 +42,7 @@
           // via the alpha channel.
           // Note: if a device notification light supports LIGHTS_RGB_NOTIFICATION_LED
           // then HAL support is not necessary for brightness control.  In this case,
-          // brightness support will be provided by lineage-sdk through the scaling of
+          // brightness support will be provided by mokee-sdk through the scaling of
           // RGB color values.
           LIGHTS_ADJUSTABLE_NOTIFICATION_LED_BRIGHTNESS = 32
           // Device has a battery light.
@@ -51,7 +51,7 @@
           // the alpha channel.
           // Note: if a device battery light supports LIGHTS_RGB_BATTERY_LED then HAL
           // support is not necessary for brightness control.  In this case,
-          // brightness support will be provided by lineage-sdk through the scaling of
+          // brightness support will be provided by mokee-sdk through the scaling of
           // RGB color values.
           LIGHTS_ADJUSTABLE_BATTERY_LED_BRIGHTNESS = 128
           For example, a device with notification and battery lights that supports

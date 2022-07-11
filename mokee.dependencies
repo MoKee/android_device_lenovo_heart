@@ -1,5 +1,9 @@
 [
   {
+    "repository": "android_vendor_lenovo_heart",
+    "target_path": "vendor/lenovo/heart"
+  },
+  {
     "repository": "android_device_lenovo_sm8150-common",
     "target_path": "device/lenovo/sm8150-common"
   }

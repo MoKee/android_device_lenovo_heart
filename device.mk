@@ -13,7 +13,7 @@ $(call inherit-product, device/lenovo/sm8150-common/common.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-mokee
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -62,4 +62,4 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Touch
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.lenovo_heart
+    vendor.mokee.touch@1.0-service.lenovo_heart

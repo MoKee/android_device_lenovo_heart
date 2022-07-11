@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_heart.mk
+    $(LOCAL_DIR)/mokee_heart.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_heart-user \
-    lineage_heart-userdebug \
-    lineage_heart-eng
+    mokee_heart-user \
+    mokee_heart-userdebug \
+    mokee_heart-eng
